@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>図書システム</title>
+  </head>
+  <body>
+    <div class="top">
+      <h1>図書システム</h1>
+      <p>本の貸出・返却を管理するシステムです。</p>
+      <nav>
+        <a href="index.html">ホーム</a>
+        <a href="list.html">本のリスト</a>
+        <a href="add.html">本の追加</a>
+        <a href="lend.html">本の貸出</a>
+      </nav>
+    </div>
+    <div class="main">
+      <h2>本の返却</h2>
+      <input type="text" id="id" placeholder="ID" /><br />
+      <input type="submit" value="返却" onclick="Return()" />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
